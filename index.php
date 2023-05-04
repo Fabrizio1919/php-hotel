@@ -49,12 +49,9 @@ foreach ($hotels as $key => $hotel) {
     $vote[$key] = $row['vote'];
 }
 
-if ($vote_order === 'voteHight') {
-    array_multisort($vote, SORT_ASC, $hotels);
-} else if ($vote_order === 'voteLow') {
-    array_multisort($vote, SORT_ASC, $hotels);
-    $hotels = array_reverse($hotels);
-}
+
+
+
 
 
 
