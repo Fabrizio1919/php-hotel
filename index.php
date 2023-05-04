@@ -58,6 +58,7 @@ if ($vote_order === 'voteHight') {
 
 
 
+
 ?>
 
 <!doctype html>
